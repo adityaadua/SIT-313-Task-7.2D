@@ -1,0 +1,45 @@
+.image-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* File Input Styles */
+input[type="file"] {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #bbd7f6;
+  padding: 10px 20px; /* Increased padding for better visual appearance */
+  border: none;
+  border-radius: 5px; /* Rounded corners for a softer look */
+  cursor: pointer;
+  width: 50%;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="file"]:hover {
+  background-color: #a6c3e0; /* Darken background color on hover */
+}
+
+/* Button Styles */
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px; /* Increased padding for a more prominent button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  margin-left: 43%;
+  transition: background-color 0.3s, transform 0.2s;
+  font-weight: bold; /* Added font-weight for emphasis */
+  font-size: 18px; /* Adjusted font size for better readability */
+}
+
+button:hover {
+  background-color: #0b1f34;
+}
+
+button:active {
+  background-color: #0b1f34; /* Maintain the active color on click */
+  transform: translateY(2px);
+}
